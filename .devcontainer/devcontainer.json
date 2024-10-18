@@ -1,0 +1,13 @@
+{
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "next",
+  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+  "forwardPorts": [
+    3000
+  ],
+  "customizations" : {
+    "jetbrains" : {
+      "backend" : "WebStorm"
+    }
+  },
+}
